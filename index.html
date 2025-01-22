@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starshot - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <!-- Hamburger Menu Before Logo -->
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <a href="index.html" class="logo">Starshot</a>
+      <!-- Navigation Links -->
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cosmica.html">Cosmica</a></li>
+          <li><a href="mc.html">StarshotMC</a></li>
+          <li><a href="future.html">The Future</a></li>
+          <li><a href="role.html">Your Role</a></li>
+          <li><a href="https://discord.gg/starshot" target="_blank" class="discord-btn">Join Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="glowing-text">Welcome to Starshot</h1>
+    <p class="glowing-text">Design. Create. Innovate.</p>
+    <a href="https://discord.gg/starshot" class="cta-btn" >Join the Community</a>
+  </section>
+  <br><br><br><br><br>
+  
+  <footer>
+    <p>&copy; 2025 Starshot. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
