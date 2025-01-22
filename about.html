@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starshot - About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="navbar-container">
+      <div class="navbar">
+        <!-- Hamburger Menu -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <a href="index.html" class="logo">Starshot</a>
+        <nav>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cosmica.html">Cosmica</a></li>
+            <li><a href="mc.html">StarshotMC</a></li>
+            <li><a href="future.html">The Future</a></li>
+            <li><a href="role.html">Your Role</a></li>
+            <li><a href="https://discord.gg/starshot" target="_blank" class="discord-btn">Join Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section about">
+    <div class="container">
+      <div class="content-container">
+        <h2><span class="highlight">About Starshot</span></h2>
+        <p>Starshot is a software and graphic design studio founded and operated by <span class="highlight">@xanhutcheson</span>, along <span class="highlight">@.tigerrr.</span>, and <span class="highlight">@Zeanox</span>. We aim to bridge the gap between the creative and digital worlds. As creators ourselves, we understand the power of collaboration, and Starshot was founded to bring together people from all corners of the digital world.</p>
+        <p>Our team includes highly skilled graphic designers, developers, and software engineers. Every day, we work on a variety of projects, from building innovative software to crafting stunning designs for our community. We are always pushing boundaries, creating new opportunities, and seeking new talent to join our ranks.</p>
+        <p>At Starshot, we believe that collaboration leads to growth, and we’re committed to empowering our community members to create, innovate, and inspire. Whether you’re a gamer, designer, developer, or simply a fan of our work, there’s a place for you here.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Starshot. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
